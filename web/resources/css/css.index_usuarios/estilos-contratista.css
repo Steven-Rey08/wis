@@ -1,0 +1,89 @@
+*{
+	margin:0px;
+	padding:0px;
+	font-family: helvetica Neue;
+	font-weight: lighter;
+}
+.cajapadre{
+    width: 100%;
+    height: 600px;
+    border: 0px solid black;
+}
+.menu-lateral{
+	width: 18%;
+	height: 100%;
+	background-color: #2d2d2d;
+    float: left;
+}
+.menu-lateral ul{
+	margin-top:40px;
+	list-style: none;
+	display: block;
+    float: left;
+}
+
+.menu-lateral li{
+	width: 100%;
+	height:65px;
+	border-bottom: 0px solid #323232;
+	overflow: hidden;
+}
+p.menu{
+	position: relative;
+	padding:16px;
+	padding-right: 25px;
+	float:right;
+	color:white;
+	opacity: .6;
+	font-size: 1.2em;
+	-webkit-transition: opacity .2s;
+}
+div.barra{
+	position: absolute;
+	height: 65px;
+	width: 0px;
+	background-color: #aaa;
+	opacity: .1;
+	-webkit-transition: width .2s;
+}
+li:hover div.barra{
+	width: 18%;
+}
+li:hover p.menu{
+	opacity: 1;
+}
+li img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    margin: auto;
+    border: 0px solid;
+}
+.im{
+    position: relative;
+	padding-right: 90px;
+	float:right;
+	color:white;
+	font-size: 1.2em;
+	-webkit-transition: opacity .2s;
+    border: 0px solid;
+}
+.nombre1{
+    color: white;
+    padding-left: 70px;
+}
+.nombre{
+    color: white;
+    padding-left: 80px;
+}
+.area-trabajo{
+    width: 82%;
+    height: 100%;
+    float: left;
+    background: rgba(186,186,186,1);
+}
+iframe{
+	height: 99%; 
+	width: 100%; 
+	border: 0px solid black;
+}
