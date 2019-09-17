@@ -92,9 +92,12 @@ img{
     text-align: center;
 }
 .c7{
-    text-align: justify;
+    text-align: center;
     font-size: 1.2;
     border: 0px solid;
+}
+.c7 img{
+
 }
 .back p{
     color: white;
@@ -133,8 +136,8 @@ img{
     border: 0px solid;
 }
 footer{
-	background: white;
-	color: black;
+    background: white;
+    color: black;
     margin: auto;
 }
 footer p{
@@ -166,20 +169,20 @@ footer p{
 	text-decoration: none;
 	position: fixed;
 	bottom: 0px;
-    top: 85%;
+        top: 85%;
 	left: 10px;
 	overflow: hidden;
 	width:50px;
 	height:50px;
 	border: 2px solid #FFC900;
 	text-indent: 10%;
-	background: url(../img/arrow_up.png) no-repeat center;
+	background: url(../..//img/arrow_up.png) no-repeat center;
     margin-bottom: auto;
 }
 #toTop:active, #toTop:focus {
 }
 #toTop:hover{
-    background: url(../img/arrow_up.png) no-repeat center;
+    background: url(../..//img/arrow_up.png) no-repeat center;
 	border: 2px solid white;
 }
 /**/

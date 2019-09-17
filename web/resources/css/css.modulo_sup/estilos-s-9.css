@@ -19,6 +19,7 @@ body {
     background: rgba(186,186,186,0.5);
     border-radius: 20px;
 }
+
 .formulario h1{
     text-align: center;
     color: #1a2537;
@@ -38,12 +39,15 @@ input[type="password"]{
 }
 .input-contenedor{
     float: left;
-    width: 32.5%;
+    width: 30%;
     margin: 3px ;
     margin-bottom: 5px;
     border: 0px solid #aaa;
+    bottom: 200px;
 }
-
+i{
+    font-size: 10px ;
+}
 .icon{
     margin: 9px;
     margin-right: -4.9px;
@@ -52,7 +56,7 @@ input[type="password"]{
 }
 .button{
     border: none;
-    width: 20%;
+    width: auto;
     color: white;
     font-size: 20px;
     background:  #1a2537;
@@ -69,18 +73,24 @@ p{
 }
 .link{
     text-decoration: none;
-      color: #1a2537;
+    color: #1a2537;
     font-weight: 600;
 }
 .link:hover{
      color: cadetblue;
 }
+.c1{
+    text-align: center;
+}
 @media(min-width:768px)
 {
     .formulario{
         margin: auto;
-        width: 900px;
+        width: 700px;
         margin-top: 105px;
         border-radius: 2%;
+    }
+    i{
+    font-size: 20px ;
     }
 }
