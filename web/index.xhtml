@@ -12,8 +12,9 @@
     <link href="resources/font.css" rel="stylesheet" type="text/css"/>
     <link href="resources/css/css.index_principal/slick.css" rel="stylesheet" type="text/css"/>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800' rel='stylesheet' type='text/css'></link>
+
 </h:head>
-<h:body>
+    <h:body class="">
     
     <br></br>
     <br></br>
@@ -54,8 +55,8 @@
                         </a>
                         <div class="dropdown-menu " aria-labelledby="navbarDropdown">
                             <h:form>
-                                <a class="dropdown-item" href="html/form_registrar.xhtml">Registrar</a>
-                                <a class="dropdown-item" href="html/form_ingreso.xhtml"> Ingreso</a>
+                                <h:commandLink class="dropdown-item" action="formPc/registrar.xhtml" value="Registrar" />
+                                <h:commandLink class="dropdown-item" action="formPc/ingreso.xhtml" value="Iniciar Sesion" />
                             </h:form>
                         </div>
                     </li>
@@ -476,6 +477,7 @@
     <h:form>
     <h:commandButton action="#" id="toTop" >Hola <span id="toTopHover"></span> </h:commandButton>
     </h:form>
+    
     <script src="resources/js/popper.min.js" type="text/javascript"></script>
     <script src="resources/js/jquery-1.10.2.min.js" type="text/javascript"></script>
     <script src="resources/js/bootstrap.min.js" type="text/javascript"></script> 
